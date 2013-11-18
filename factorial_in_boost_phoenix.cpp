@@ -6,6 +6,8 @@ using namespace boost::phoenix;
 using namespace boost::phoenix::arg_names;
 using namespace boost::phoenix::local_names;
 
+// An example of recusively function call by local variable.
+// This will avoid from managing the pointer of function.
 
 int main()
 {
